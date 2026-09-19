@@ -1,0 +1,20 @@
+# SEC data files (downloaded from sec.gov, too large for GitHub)
+2025q*/
+2026q*/
+*.zip
+
+# Scratch files
+Untitled.sql
+x_temp_executions.sql
+.ipynb_checkpoints/
+
+# Login details and keys, never commit these
+*.pem
+*.p8
+config.toml
+
+# Not part of the project
+anaconda_projects/
+02_sec_quarterly_files_upload_to_landing_stage.ipynb
+financial-statement-data-sets.pdf
+snowflake_two_projects_plan_and_references.pdf
