@@ -1,0 +1,24 @@
+manifest_version: 2
+type: DCM_PROJECT
+
+default_target: DEV
+
+targets:
+  DEV:
+    # TODO: Replace with the fully qualified name of your DEV project object
+    account_identifier: MKBNBME-UB36734
+    project_name: SEC_FINANCIAL_ANALYTICS.DCM_PROJECTS.SEC_FINANCIAL_PIPELINE
+    project_owner: ACCOUNTADMIN
+    templating_config: DEV
+
+templating:
+  defaults:
+    project_owner_role: "ACCOUNTADMIN"
+    wh_size: "SMALL"
+  configurations:
+    DEV:
+      env_suffix: "_MY_PROJECT_OBJECT"
+      teams:
+        - name: "SAMPLE_TEAM"
+          data_retention_days: 1
+          add_employees: TRUE
