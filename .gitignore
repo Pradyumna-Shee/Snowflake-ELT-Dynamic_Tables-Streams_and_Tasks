@@ -18,3 +18,5 @@ anaconda_projects/
 02_sec_quarterly_files_upload_to_landing_stage.ipynb
 financial-statement-data-sets.pdf
 snowflake_two_projects_plan_and_references.pdf
+
+out/
